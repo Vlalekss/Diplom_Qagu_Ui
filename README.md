@@ -115,7 +115,7 @@ allure serve build/allure-results
 <img title="Allure Tests" src="image/graff.png">
 </p>
 
-##   Уведомления в Telegram
+##   Отчет в Telegram
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
