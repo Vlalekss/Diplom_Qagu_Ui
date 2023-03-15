@@ -73,32 +73,6 @@ test
 -Durl=${REMOTE_URL}
 ```
 
-# Примеры использования
-
-### Для запуска удаленных тестов необходимо заполнить remote.properties или передать значение:
-
-* browser (default chrome)
-* browserVersion (default 108.0)
-* browserSize (default 1920x1080)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
-
-
-Запускайте тесты с заполненным remote.properties:
-```bash
-gradle clean test
-```
-
-Запускайте тесты с незаполненным remote.properties:
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
-
-Выдать отчет:
-```bash
-allure serve build/allure-results
-```
 ## <img src="image/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/valekseevUI">Allure report</a>
 
 ## 🧪: Тесты
