@@ -7,7 +7,6 @@
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
-- [Примеры использования](#earth_africa-Allure-отчет)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
