@@ -9,6 +9,7 @@
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Примеры использования](#earth_africa-Allure-отчет)
 - [Allure отчет](#earth_africa-Allure-отчет)
+- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Пример запуска теста в Selenoid](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
@@ -98,7 +99,7 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 ```bash
 allure serve build/allure-results
 ```
-## <img src="image/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/valekseevUI/11/allure/">Allure report</a>
+## <img src="image/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/valekseevUI">Allure report</a>
 
 ## 🧪: Тесты
 <p align="center">
@@ -113,6 +114,11 @@ allure serve build/allure-results
 ## 💹: Графики
 <p align="center">
 <img title="Allure Tests" src="image/graff.png">
+</p>
+
+## <img width="4%" title="Allure TestOPS" src="image/logo/Allure.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/20548)
+<p align="center">
+<img title="Allure Tests" src="image/Test.png">
 </p>
 
 ##   Отчет в Telegram
